@@ -2,6 +2,19 @@
 
 ---
 
+# Updates
+
+## 2020-04-17
+
+Added [svelte-preprocess](https://www.npmjs.com/package/svelte-preprocess) preprocessor with support for: PostCSS, SCSS, Less, Stylus, Coffeescript, TypeScript and Pug.
+
+Added [rollup-plugin-node-builtins](https://www.npmjs.com/package/rollup-plugin-node-builtins)  Allows the node builtins to be required/imported. Doing so gives the proper shims to support modules that were designed for Browserify, some modules require rollup-plugin-node-globals.
+
+Added [rollup-plugin-node-globals](https://www.npmjs.com/package/rollup-plugin-node-globals) Plugin to insert node globals including so code that works with browserify should work even if it uses process or buffers.
+
+
+---
+
 # svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
